@@ -1,3 +1,4 @@
 /node_modules/
 .DS_Store
-license.txt
+package.json
+package-lock.json

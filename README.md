@@ -1,16 +1,24 @@
 # Gilded Rose Kata
 
-updated legacy codebase to for team Gilded Rose to accept new stock
+A Javascript solution for the Gilded Rose Kata orignally by Terry Hughes.  
 
 ## Legacy Specifications
 
-1. Once the sell by date has passed, Quality degrades twice as fast\
-2. The Quality of an item is never negative\
-3. “Aged Brie” actually increases in Quality the older it gets\
-4. The Quality of an item is never more than 50\
-5. “Sulfuras”, being a legendary item, never has to be sold or decreases in Quality\
-6. “Backstage passes”, like aged brie, increases in Quality as it’s SellIn value approaches\
-7. Quality increases by 2 when there are 10 days or less and by 3 when there are 5 days or less but Quality drops to 0 after the concert\
+1. Once the sell by date has passed, Quality degrades twice as fast.  
+2. The Quality of an item is never negative.
+3. “Aged Brie” actually increases in Quality the older it gets.
+4. The Quality of an item is never more than 50.
+5. “Sulfuras”, being a legendary item, never has to be sold or decreases in Quality.
+6. “Backstage passes”, like aged brie, increases in Quality as it’s SellIn value approaches.
+7. Quality increases by 2 when there are 10 days or less and by 3 when there are 5 days or less but Quality drops to 0 after the concert.
+
+---
+
+### Note to self
+
+>In tackling this kata again in future, pay closer attention to the **refactor loop**. A more diligent approach would have definitely resulted in cleaner, DRY'er code. _Try getting rid of ifs all together maybe?_ (25/07/20)
+
+---
 
 ## Brief
 
